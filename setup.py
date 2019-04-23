@@ -10,7 +10,7 @@ with open('timeflux_gazepoint/__init__.py') as f:
     VERSION = re.search('^__version__\s*=\s*\'(.*)\'', f.read(), re.M).group(1)
 
 setup(
-    name='Timeflux Gazepoint plugin',
+    name='timeflux-gazepoint',
     packages=find_packages(),
     version=VERSION,
     description='Driver for the Gazepoint eye tracker.',
