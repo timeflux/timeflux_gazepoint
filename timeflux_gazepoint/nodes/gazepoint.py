@@ -4,7 +4,6 @@ from timeflux.core.node import Node
 from timeflux.helpers.clock import now
 from threading import Thread, Lock
 from time import sleep, perf_counter
-import logging
 import socket
 import re
 
